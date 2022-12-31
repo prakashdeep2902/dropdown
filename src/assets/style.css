@@ -1,0 +1,71 @@
+body{
+    background-color: lightcyan;
+}
+.conatainer{
+  
+    width: 30rem; 
+    height: auto;
+    margin: auto;
+    margin-top: 10rem;
+}
+.options{
+
+display: flex;
+align-items: center;
+padding: .5rem;
+text-transform: capitalize; 
+justify-content: space-between;
+cursor: pointer;
+background-color: white;
+box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.06);
+
+ 
+}
+.options p{
+
+  font-size: 1.3rem;
+  
+}
+.dropimage{
+    height: 100%;
+    width: 30%;
+  
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.dropimage img{
+
+   
+     width: 1.3rem;
+     height: 1.3rem;
+}
+.select-option{
+
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: .3rem;
+    
+}
+.select-option .dropdown_item{
+
+   
+    display: flex;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: .7rem;
+    margin-top: .5rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    cursor: pointer;
+    justify-content: space-between;
+  
+    padding-right: 2rem;
+}
+.select-option .dropdown_item:hover{
+
+    background-color: lightgray;
+    transition: all 0.2s;
+}
